@@ -1,3 +1,6 @@
+![Python v3.8](https://img.shields.io/badge/python-3.8-blue?style=plastic&logo=appveyor.svg)
+![GitHub](https://img.shields.io/github/license/justinbosscher/hospital-bed-utilization?style=plastic)
+
 # Hospital Utilization Survival Analysis
 ![Under Construction](https://ps.w.org/easy-under-construction/assets/banner-772x250.png?rev=2417171)
 ## Table of Contents
