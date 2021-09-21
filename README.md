@@ -1,8 +1,10 @@
-![Python v3.8](https://img.shields.io/badge/python-3.8-blue?style=plastic&logo=appveyor.svg)
-![GitHub](https://img.shields.io/github/license/justinbosscher/hospital-bed-utilization?style=plastic)
+![Python v3.8.1](https://img.shields.io/badge/python-3.8.1-blue?style=plastic&logo=appveyor.svg)
+![Jupyter Notebook](https://img.shields.io/badge/jupyter-notebook-orange?style=plastic)
+![License](https://img.shields.io/github/license/justinbosscher/hospital-bed-utilization?style=plastic&logo=appveyor.svg)
 
-# Hospital Utilization Survival Analysis
 ![Under Construction](https://ps.w.org/easy-under-construction/assets/banner-772x250.png?rev=2417171)
+
+# Hospital Bed Utilization
 ## Table of Contents
 * [Project Objective](#project-objective)
 * [Methods](#methods)
@@ -19,7 +21,7 @@
 * [License](#license)
 
 ## Project Objective
-#### Hopefully, this project will predict bed utilization rates using Google Trends data. Currently, I am still looking for relevant hospital data.
+#### Hopefully, this project will predict bed utilization rates using Google Trends data. Currently, I am still looking for relevant hospital data. MySQL and Python will be used on Ubuntu in a Docker Image on a Raspberry Pi.
 
 ## Methods
 * Data Visualization
@@ -34,7 +36,6 @@
 * Python Virtual Environment
 * Jupyter Notebook
 * Python Packages
-    * load_data
     * requests
     * pandas
     * numpy
@@ -45,20 +46,14 @@
     * matplotlib
 
 ## Getting Started
-1. If necessary, install the python3-venv package using the following command:
+1. If necessary, install the python3-venv package running:
     sudo apt install python3.8-venv
-2. Create virtual environment
+2. Create virtual environment by running:
     python3 -m venv hospitals-wkspc
-3. cd into the folder created by running the last command.
-4. Activate the environment:
+3. Change directory to workspace folder by running: cd hospitals-wkspc
+4. Activate the environment by running:
     source bin/activate
-5. pip install jupyter
-6. pip3 install pytrends
-6. pip install psycopg2-binary
-6. pip install pandas
-7. pip install numpy
-8. pip install matplotlib.pyplot
-9. 
+5. Install necessary packages by running: python3 -m pip install -r requirements.txt
 
 ## Project Description
 ## Training Models Results
