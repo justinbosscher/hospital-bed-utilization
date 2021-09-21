@@ -2,9 +2,10 @@
 ![Jupyter Notebook](https://img.shields.io/badge/jupyter-notebook-orange?style=plastic)
 ![License](https://img.shields.io/github/license/justinbosscher/hospital-bed-utilization?style=plastic&logo=appveyor.svg)
 
+# Hospital Bed Utilization
+
 ![Under Construction](https://ps.w.org/easy-under-construction/assets/banner-772x250.png?rev=2417171)
 
-# Hospital Bed Utilization
 ## Table of Contents
 * [Project Objective](#project-objective)
 * [Methods](#methods)
